@@ -28,12 +28,12 @@ Icon_7=0
 * * * Compile_AHK SETTINGS END * * *
 */
 
-CAHK_Version=0.9.1
+CAHK_Version=0.9.2
 
 ; --------------------------------------------------------------------------------
 ; Language				: English // German
 ; Platform				: WinNT
-; Author				: <= 0.9.0.5 @ denick // 0.9.0.6-0.9.0.50 @ ladiko // 0.9.0.51-0.9.0.58 @ flashkid and ruespe // 0.9.1 @ darklight_tr
+; Author				: <= 0.9.0.5 @ denick // 0.9.0.6-0.9.0.50 @ ladiko // 0.9.0.51-0.9.0.58 @ flashkid and ruespe // 0.9.1 @ darklight_tr // 0.9.2 Dorian Patterson
 ; Script Function		: Alternative Gui for AHK2EXE.EXE
 ; --------------------------------------------------------------------------------
 ; This script analyses a scriptname.ahk.ini , that is present inside of a script's
@@ -321,7 +321,7 @@ GuiShow:
 	Gui , Add , Text , xs y+17 h20 w120 +0x1000 vGui_Text_Other_Options, %Lang_Other_Options%
 	Gui , Add , Checkbox , x+20 yp w220 h20 vGui_Created_Date Checked%Created_Date% , %Lang_Created_Date%
 ;	Gui , Add , Checkbox , x+20 yp w120 h20 vGui_NoDecompile Checked%NoDecompile% , %Lang_NoDecompile%
-	Gui , Add , Checkbox , xs+140 y w220 h20 vGui_SaveIniInScript Checked%SaveIniInScript% , %Lang_SaveIniInScript%
+	Gui , Add , Checkbox , xs+140 yp w220 h20 vGui_SaveIniInScript Checked%SaveIniInScript% , %Lang_SaveIniInScript%
 
 	Gui , Tab , 2
 	Gui , Add , Checkbox , x+20 y+20 gGui_CB_VI w150 vGui_Set_Version_Info Checked%Set_Version_Info% , %Lang_Set_Version_Info%
