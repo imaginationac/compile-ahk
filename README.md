@@ -1,8 +1,10 @@
 Compile AHK
 ===========
 
-v0.9.1
+v0.9.1 
+
 Authors: denick, ladiko, flashkid, ruespe, darklight_tr
+
 Built with AutoHotkey_L v1.1.03.00 20110828
 
 Info
@@ -11,6 +13,7 @@ Info
 Compile AHK is a GUI based script that assists with compiling AutoHotkey scripts.
 
 OS Support: Windows XP, Windows Vista, Windows 7
+
 Tested On: Windows XP, Windows 7
 
 Known Issues
@@ -24,8 +27,7 @@ Please report any issues you encounter here: https://github.com/imaginationac/co
 License
 -------
 
-Originally declared just "open source", any new contributions will be considered public domain.
-If your jurisdiction does not recognize the concept of public domain, use the MIT License (see LICENSE for details).
+Originally declared just "open source", any new contributions will be considered public domain. If your jurisdiction does not recognize the concept of public domain, use the MIT License (see LICENSE for details).
 
 Changelog
 ----------
