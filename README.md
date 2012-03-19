@@ -71,3 +71,4 @@ The following need to be downloaded & installed.
 - [ResHacker](http://www.angusj.com/resourcehacker/) - Freeware Resource editor
 - [MPRESS](http://www.matcode.com/mpress.htm) - Freeware executable packer
 
+1. Copy GoRC.exe, ResHacker.exe, and mpress.exe into the project root directory.
